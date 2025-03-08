@@ -1,0 +1,30 @@
+{
+    "edge_servers": [
+        {
+            "id": "Server1",
+            "location": [0, 0],
+            "cpu": 8,
+            "ram": 16
+        }
+    ],
+    "devices": [
+        {
+            "id": "Car1",
+            "location": [5, 10],
+            "data_rate": 20
+        },
+        {
+            "id": "Car2",
+            "location": [15, 30],
+            "data_rate": 30
+        }
+    ],
+    "network_links": [
+        {
+            "source": "Server1",
+            "target": "Car1",
+            "bandwidth": 100,
+            "latency": 5
+        }
+    ]
+}
