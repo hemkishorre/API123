@@ -1,0 +1,17 @@
+{
+    "edge_servers": [
+        {"id": "ES1", "cpu": 4, "ram": 8, "location": [10, 20]},
+        {"id": "ES2", "cpu": 6, "ram": 12, "location": [30, 40]}
+    ],
+    "network": [
+        {"id": "Link1", "bandwidth": 100, "latency": 5},
+        {"id": "Link2", "bandwidth": 200, "latency": 2}
+    ],
+    "applications": [
+        {"id": "App1", "services": ["Service1"], "user_access_pattern": "Random"}
+    ],
+    "users": [
+        {"id": "User1", "location": [5, 10], "applications": ["App1"]},
+        {"id": "User2", "location": [35, 45], "applications": ["App1"]}
+    ]
+}
