@@ -1,5 +1,5 @@
 {
-    "edge_servers": [
+    "EdgeServer": [
         {
             "id": "Server1",
             "location": [0, 0],
@@ -7,11 +7,11 @@
             "ram": 16
         }
     ],
-    "devices": [
+    "Device": [
         {
             "id": "Car1",
             "location": [5, 10],
-            "speed": 50,  # km/h
+            "speed": 50,
             "sensors": ["Lidar", "Camera"],
             "data_rate": 20
         },
@@ -23,7 +23,7 @@
             "data_rate": 30
         }
     ],
-    "network_links": [
+    "Link": [
         {
             "source": "Server1",
             "target": "Car1",
@@ -32,4 +32,5 @@
         }
     ]
 }
+
 
