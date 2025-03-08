@@ -7,15 +7,19 @@
             "ram": 16
         }
     ],
-    "users": [
+    "devices": [
         {
             "id": "Car1",
             "location": [5, 10],
+            "speed": 50,  # km/h
+            "sensors": ["Lidar", "Camera"],
             "data_rate": 20
         },
         {
             "id": "Car2",
             "location": [15, 30],
+            "speed": 40,
+            "sensors": ["Radar", "GPS"],
             "data_rate": 30
         }
     ],
@@ -24,7 +28,8 @@
             "source": "Server1",
             "target": "Car1",
             "bandwidth": 100,
-            "latency": 5
+            "latency": 10
         }
     ]
 }
+
