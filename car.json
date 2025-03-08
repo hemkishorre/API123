@@ -7,7 +7,7 @@
             "ram": 16
         }
     ],
-    "devices": [
+    "users": [
         {
             "id": "Car1",
             "location": [5, 10],
